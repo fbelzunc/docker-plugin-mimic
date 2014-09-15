@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core"
+         xmlns:f="/lib/form"
+         xmlns:st="jelly:stapler"
+        >
+    <table width="100%">
+
+        <st:include page="global.jelly" class="${descriptor.clazz}" />
+
+    </table>
+</j:jelly>
